@@ -1,0 +1,32 @@
+[
+    {
+        "id" : 1 ,
+        "title": "Home",
+        "url" : "/",
+        "icon": "fa-solid fa-home"
+    },
+    {
+        "id" : 2 ,
+        "title": "About",
+        "url" : "/about",
+        "icon": "fa-solid fa-user"
+    },
+    {
+        "id" : 3 ,
+        "title": "Skills",
+        "url" : "/skills",
+        "icon": "fa-solid fa-briefcase"
+    },
+    {
+        "id" : 4 ,
+        "title": "Projects",
+        "url" : "/projects",
+        "icon": "fa-regular fa-rectangle-list"
+    },
+    {
+        "id" : 5 ,
+        "title": "Contact",
+        "url" : "/contact",
+        "icon": "fa-solid fa-envelope"
+    }
+]

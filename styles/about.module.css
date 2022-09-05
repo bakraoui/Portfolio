@@ -1,0 +1,223 @@
+.about {
+    position: relative;
+    padding-top: 50px; 
+}
+.about h1{
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: rgba(51, 51, 51, 0.733);
+    position: relative;
+    width: max-content;
+    cursor: default;
+}
+.about h1 .underline{
+    position: absolute;
+    bottom: 01.5px;
+    left: 31.5%;
+    height: 5px;
+    width: 0%;
+    padding: 0;
+    background-color: rgba(51, 51, 51, 0.733);
+    transition: 0.5s;
+}
+.about h1:hover .underline{
+    width: 70%;
+}
+.about h1 span{
+    color: #fff;
+    background-color: rgba(51, 51, 51, 0.733);
+    padding: 0px 2px;
+    transition: 0.5s;
+}
+.about_content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.text {
+    font-size: 14px;
+}
+.text p{
+    margin-bottom: 10px;
+    line-height: 30px;
+    color: #999;
+}
+.text h4{
+    font-size: 22px;
+}
+.text h3{
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.media_links{
+    display: flex;
+
+}
+.media_links .link{
+    padding: 5px 8px;
+    display: block;
+    margin: 5px 12px 5px 0px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: ease .5s;
+    border: 1px solid#fff;
+}
+.media_links .link:hover{
+    background-color: #fff;
+    color: #333;
+}
+
+
+
+.details {
+    padding: 10px;
+    margin: 10px 0px;
+    line-height: 30px;
+}
+
+.details ul {
+    width: 100%;
+}
+
+.details li {
+    box-shadow: 0px 2px 3px -3px #333;
+    padding: 8px 0px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.details li span{
+    font-weight: 500;
+    color: rgb(113, 110, 110);
+}
+
+.studies_experiences {
+    padding: 10px;
+}
+
+.card  {
+    width: 100%;
+}
+
+.card h2 {
+    margin: 10px 0px;
+    font-size: 14px;
+}
+
+.card_body {
+    background-color: #fff;
+    box-shadow: 0px 0px 6px -2px #333; 
+    border-radius: 4px;
+    padding: 30px;
+    text-align: justify;
+}
+
+.card_body p,
+.card_body ul{
+    font-size: 12px;
+}
+
+.card_child  {
+    padding: 0px 0px 12px 0px;
+}
+
+.card_child h4  {
+    font-size: 14px;
+    color: #e33;
+    position: relative;
+    padding: 0px 0px 8px 0px;
+}
+
+.card_child h4::before   {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -6.3%;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.card_child .description   {
+    position: relative;
+}
+
+.card_child .description::before   {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -5%;
+    width: 1px;
+    background-color: red;
+    height: 100%;
+}
+
+
+
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) {  }
+
+ /*  Medium devices (tablets, 768px and up) */
+ @media screen and (min-width : 768px ) {
+    
+    .about h1{
+        font-size: 22px;
+    }
+    
+    .text {
+        margin-top: 15px;
+        font-size: 15px;
+
+    }
+
+    .details {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .details ul {
+        width: 45%;
+    }
+    
+    
+
+    .studies_experiences {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card  {
+        width: 45%;
+    }
+
+
+
+    .card_body p,
+    .card_body ul{
+        font-size: 13px;
+    }
+
+    .card_child  {
+        padding: 0px 0px 15px 0px;
+    }
+
+    .card_child h4  {
+        padding: 0px 0px 12px 0px;
+    }
+
+
+    
+ } 
+  /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) { }
+ 
+  /* X-Large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) {  }
+ 
+  /* XX-Large devices (larger desktops, 1400px and up) */
+ @media (min-width: 1400px) { }

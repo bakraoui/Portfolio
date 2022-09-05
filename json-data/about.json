@@ -1,0 +1,19 @@
+{
+    "links" : [
+        {
+            "id" : 1,
+            "href" : "https://linkedin.com/in/ayoub-bakraoui",
+            "icon" : "fab fa-linkedin-in"
+        },
+        {
+            "id" : 2,
+            "href" : "https://github.com/bakraoui",
+            "icon" : "fab fa-github"
+        },
+        {
+            "id" : 3,
+            "href" : "https://www.hackerrank.com/ayoubbakraoui",
+            "icon" : "fab fa-hackerrank"
+        }
+    ]
+}

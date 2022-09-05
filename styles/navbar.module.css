@@ -1,0 +1,108 @@
+
+
+.nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    box-shadow: 0px 2px 7px -4px #333;
+    background-color: #fff;
+}
+
+.nav h1 {
+    display: none;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+.nav ul li {
+    padding:  10px;
+    transition: .5s ease;
+    cursor: pointer;
+    box-shadow: 0px 1px 2px -2px #333;
+}
+.nav ul li span{
+    transition: .5s ease;
+}
+.nav ul li a{
+    display: block;
+}
+.nav ul li:hover span {
+    display: block;
+    transform: scale(1.1);
+}
+.nav ul li a span:nth-child(2) {
+    display: none;
+}
+
+
+.active {
+    transition: .5s ease;
+    border-bottom: 5px solid green;
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .nav {
+        width: 20%;
+        height: 100vh;        
+    }
+
+    .nav h1 {
+        display: block;
+        padding: 20px;
+    }
+    .nav h1::first-letter {
+        font-weight: 800;
+        font-size: 30px;
+        color: red;
+    }
+
+    .nav .menu {
+        height: 80vh;
+        display: flex;
+        align-items: center;
+    }
+    .nav ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav ul li {
+        padding:  20px;
+    }
+    .nav ul li a{
+        display: flex;
+    }
+    .nav ul li:hover {
+        padding: 20px 35px;
+        border-left: 10px solid orange;
+    }
+    .nav ul li a span:first-child {
+        margin-right: 10px;
+        transition: .8s;
+    }
+    .nav ul li a span:nth-child(2) {
+        display: block;
+    }
+    .active {
+        border-bottom: unset;
+        border-left: 10px solid green;
+    }
+    
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
