@@ -13,7 +13,7 @@ export default function about() {
 
           <div className={styles.text}>
               <h4> Hello!</h4>
-              <h3>I'm Bakraoui Ayoub,</h3>
+              <h3>I`&apos;m Bakraoui Ayoub,</h3>
               <p>
                  I am a software engineer. I am from Morocco, I am 22 years old.
                 currently, I am a student in the Natioanl School of Applied Sciences Agadir (ENSAA) 

@@ -9,7 +9,7 @@ function index() {
     <div className={styles.home + ' container'}>
       <div className={styles.content}>
         <div className={styles.intro}>
-            <p>I'm <span><span>B</span>akraoui Ayoub</span></p>
+            <p>I`&apos;m <span><span>B</span>akraoui Ayoub</span></p>
             <div className={styles.animation_text}>
               <p className={styles.static_text}>I am </p> 
               <ul>
