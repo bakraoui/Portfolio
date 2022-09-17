@@ -1,0 +1,48 @@
+
+.card {
+    flex-basis: 80%;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid silver;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+.card h1{
+    margin: 0 auto;
+    font-size: 36px;
+    margin-bottom: 6px;
+}
+.card:hover {
+    box-shadow: 0px 0px 4px 0px #333;
+    transform: scale(1.05);
+    background: linear-gradient(red, rgb(121, 21, 164), blue);
+    color: #fff;
+}
+.card h4{
+    font-size: 13px;
+}
+
+.card p{
+    margin-bottom: 10px;
+    color: #999;
+    font-size: 12px;
+}
+
+
+ /*  Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) { 
+    .card {
+        flex-basis: 45%;
+    }
+  }
+ 
+  /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) {  
+    .card {
+        flex-basis: 22%;
+    }
+ }
+ 

@@ -1,0 +1,50 @@
+
+.card {
+    flex-basis: 80%;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+    overflow-y: hidden;
+    position: relative;
+    margin: 15px 0px;
+    height: 200px;
+}
+
+.card:hover {
+    scale: 1.1;
+}
+
+.card > span{
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.card img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+ /*  Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) { 
+    .card {
+        flex-basis: 45%;
+        margin: 10px;
+    }
+  }
+ 
+  /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) {  
+    .card {
+        flex-basis: 30%;
+        margin: 10px;
+    }
+ }
+ 

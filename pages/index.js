@@ -9,7 +9,7 @@ function index() {
     <div className={styles.home + ' container'}>
       <div className={styles.content}>
         <div className={styles.intro}>
-            <p>I`&apos;m <span><span>B</span>akraoui Ayoub</span></p>
+            <p>I&apos;m <span><span>B</span>akraoui Ayoub</span></p>
             <div className={styles.animation_text}>
               <p className={styles.static_text}>I am </p> 
               <ul>
@@ -19,7 +19,7 @@ function index() {
               
             </div>
             <p>
-                I'm a software engineer from Morocco, I am 22 years old,
+                I&apos;m a software engineer from Morocco, I am 22 years old,
                 currently, I am a student in the Natioanl School of Applied Sciences Agadir (ENSAA) 
                 where I am studying about software engineering.
             </p>

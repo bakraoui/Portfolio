@@ -1,0 +1,27 @@
+.title {
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: rgba(51, 51, 51, 0.733);
+    position: relative;
+    width: max-content;
+    cursor: default;
+}
+.title  .underline{
+    position: absolute;
+    bottom: 01.5px;
+    left: 31.5%;
+    height: 5px;
+    width: 0%;
+    padding: 0;
+    background-color: rgba(51, 51, 51, 0.733);
+    transition: 0.5s;
+}
+.title :hover .underline{
+    width: 70%;
+}
+.title  span{
+    color: #fff;
+    background-color: rgba(51, 51, 51, 0.733);
+    padding: 0px 2px;
+    transition: 0.5s;
+}

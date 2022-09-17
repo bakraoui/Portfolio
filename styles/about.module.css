@@ -1,38 +1,12 @@
 .about {
     position: relative;
-    padding-top: 50px; 
+    padding-left: 20px;
+    padding-right: 20px;
 }
-.about h1{
-    margin-bottom: 30px;
-    font-size: 24px;
-    color: rgba(51, 51, 51, 0.733);
-    position: relative;
-    width: max-content;
-    cursor: default;
-}
-.about h1 .underline{
-    position: absolute;
-    bottom: 01.5px;
-    left: 31.5%;
-    height: 5px;
-    width: 0%;
-    padding: 0;
-    background-color: rgba(51, 51, 51, 0.733);
-    transition: 0.5s;
-}
-.about h1:hover .underline{
-    width: 70%;
-}
-.about h1 span{
-    color: #fff;
-    background-color: rgba(51, 51, 51, 0.733);
-    padding: 0px 2px;
-    transition: 0.5s;
-}
+
 .about_content {
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
 }
 .text {
     font-size: 14px;
@@ -43,21 +17,20 @@
     color: #999;
 }
 .text h4{
-    font-size: 22px;
+    font-size: 20px;
 }
 .text h3{
-    font-size: 23px;
+    font-size: 22px;
     margin-bottom: 20px;
 }
 .media_links{
     display: flex;
-
 }
 .media_links .link{
     padding: 5px 8px;
     display: block;
     margin: 5px 12px 5px 0px;
-    background-color: #333;
+    background: linear-gradient(to top, blue, red );
     color: #fff;
     border-radius: 2px;
     cursor: pointer;
@@ -65,14 +38,12 @@
     border: 1px solid#fff;
 }
 .media_links .link:hover{
-    background-color: #fff;
-    color: #333;
+    background: linear-gradient(to top, green, red);
 }
 
 
 
 .details {
-    padding: 10px;
     margin: 10px 0px;
     line-height: 30px;
 }
@@ -117,6 +88,7 @@
 .card_body p,
 .card_body ul{
     font-size: 12px;
+    line-height: 20px;
 }
 
 .card_child  {
@@ -192,7 +164,7 @@
     }
 
     .card  {
-        width: 45%;
+        width: 47%;
     }
 
 
@@ -203,11 +175,11 @@
     }
 
     .card_child  {
-        padding: 0px 0px 15px 0px;
+        padding-bottom: 15px;
     }
 
     .card_child h4  {
-        padding: 0px 0px 12px 0px;
+        padding-bottom: 12px;
     }
 
 

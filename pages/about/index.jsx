@@ -1,38 +1,44 @@
 import styles from "../../styles/about.module.css";
 import Link from "next/link";
-import {links} from '../../json-data/about.json'
+import Title from "../../components/Title";
 
 export default function about() {
   return (
     <section className={`${styles.about} container`} id='about'>
-        <h1> 
-          <span>Ab</span>out Me<span className={styles.underline}></span>
-        </h1>
+        
+
+        <Title title='About Me' />
         <div className={styles.about_content}>
 
 
           <div className={styles.text}>
               <h4> Hello!</h4>
-              <h3>I`&apos;m Bakraoui Ayoub,</h3>
+              <h3>I&apos;m Bakraoui Ayoub,</h3>
               <p>
                  I am a software engineer. I am from Morocco, I am 22 years old.
-                currently, I am a student in the Natioanl School of Applied Sciences Agadir (ENSAA) 
-                where I am studying about software engineering.
+                currently, I am a student in the Natioanl School of Applied Sciences Agadir (ENSAA).
               </p>
               <div className={styles.media_links}>
                
+                <Link  href="https://linkedin.com/in/ayoub-bakraoui" rel="noreferrer">
+                    <a className={styles.link} target='_blank'>
+                      <span><i className="fab fa-linkedin-in"></i></span>
+                    </a>
+                </Link>
 
-                {
-                  links.map(link => {
-                    return(
-                      <Link key={link.id} href={link.href} rel="noreferrer">
-                          <a className={styles.link} target='_blank'>
-                            <span><i className={link.icon}></i></span>
-                          </a>
-                      </Link>
-                    )
-                  })
-                }
+                <Link  href="https://github.com/bakraoui" rel="noreferrer">
+                    <a className={styles.link} target='_blank'>
+                      <span><i className="fab fa-github"></i></span>
+                    </a>
+                </Link>
+
+                <Link  href="https://www.hackerrank.com/ayoubbakraoui" rel="noreferrer">
+                    <a className={styles.link} target='_blank'>
+                      <span><i className="fab fa-hackerrank"></i></span>
+                    </a>
+                </Link>
+
+                
                     
               </div>
           </div>
@@ -40,7 +46,7 @@ export default function about() {
           <div className={styles.details}>
             <ul>
               <li> Birthday : <span>21-02-2000</span> </li>
-              <li>Website :  <span> <a href="http://bakraoui.vercel.app" target='_blank'>bakraoui.vercel.app</a> </span> </li>
+              <li>Website :  <span> <a href="http://bakraoui.vercel.app" target='_blank' rel="noreferrer">bakraoui.vercel.app</a> </span> </li>
               <li>Option :   <span>Software Developer</span>  </li>
             </ul>
             <ul>
@@ -63,11 +69,11 @@ export default function about() {
                         <p>The modules covered:</p>      
                         <ul>
                             <li>
-                              <b>Legal :</b> 
+                              <b>Legal : </b> 
                               concerns the management of vehicle documents; contracts, technical visits, insurance, claims...
                             </li>
                             <li>
-                                <b>Intervention :</b> 
+                                <b>Intervention : </b> 
                                 is divided into two types; Periodicals: the management of oil change and tyre operations.
                                 Technical problems it follows a process that begins with the declaration of the breakdown, 
                                 a request for intervention, a maintenance and finally the internal or external maintenance.
@@ -81,11 +87,11 @@ export default function about() {
                   <h4>Software Developer</h4>
                   <div className={styles.description}>
                     <p>SMART SOLUCE | Internship | July - August 2021 </p>
-                    <p>School Management System project.implementation of a web application for managing private schools.</p>
+                    <p>School Management System project. implementation of a web application for managing private schools.</p>
                     <p>4 roles: super admin, normal admin, teacher, student.</p>
                     
                     <div>
-                        <p>The modules covered:</p>
+                        <p>The modules covered :</p>
                         <ul>
                             <li>Personnel management (administrators, professors, students)</li>
                             <li>marks management (semester grade, final grade)</li>

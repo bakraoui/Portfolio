@@ -3,12 +3,16 @@ import Image from 'next/image';
 import img from '../../public/index.png'
 import ecomm from '../../public/ecomm.jpg'
 import building from '../../public/building.jpg'
+import Title from '../../components/Title';
 
 
 export default function index() {
   return (
     <section className={styles.projects + ' container'} id='projects'>
-        <h1> <span>Pr</span>ojects<span className={styles.underline}></span></h1>
+
+
+        <Title title='Projects' />
+        
         <div className={styles.card_container}>
 
             <div className={styles.card}>
