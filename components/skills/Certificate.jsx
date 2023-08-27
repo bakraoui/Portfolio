@@ -1,10 +1,10 @@
 import styles from '../../styles/skills/certificate.module.css'
-import Image from 'next/image'
 
-function Certificate({src}) {
+function Certificate({title, src}) {
   return (
     <div className={styles.card}>
-        <Image src={src} width='300' height='200' alt='' />
+        <p className="title">{title}</p>
+        <a href={src} target="_blank">preview</a>  
     </div>
   )
 }

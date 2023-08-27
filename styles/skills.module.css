@@ -8,52 +8,15 @@
     flex-wrap: wrap;
 }
 
-.badges {
-    position: relative;
-}
 
-.badges_container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
 
 .certificates {
-    position: relative;
+    margin-top: 20px;
 }
 
 .certificates_container {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    justify-content: space-around;
 }
 
-
- /* Small devices (landscape phones, 576px and up) */
- @media (min-width: 576px) {  }
-
- /*  Medium devices (tablets, 768px and up) */
- @media (min-width: 768px) { 
-    .badges_container {
-        justify-content: flex-start;
-    }
-    
-    .certificates_container {
-        justify-content: flex-start;
-    }
-  }
- 
-  /* Large devices (desktops, 992px and up) */
- @media (min-width: 992px) {  
-    
- }
- 
-  /* X-Large devices (large desktops, 1200px and up) */
- @media (min-width: 1200px) { 
-    
-  }
- 
-  /* XX-Large devices (larger desktops, 1400px and up) */
- @media (min-width: 1400px) { 
- 
-  }

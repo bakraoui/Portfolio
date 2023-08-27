@@ -1,8 +1,5 @@
 import styles from '../../styles/projects.module.css'
-import Image from 'next/image';
-import img from '../../public/index.png'
-import ecomm from '../../public/ecomm.jpg'
-import building from '../../public/building.jpg'
+// import Image from 'next/image';
 import Title from '../../components/Title';
 
 
@@ -17,7 +14,7 @@ export default function index() {
 
             <div className={styles.card}>
                 <div className={styles.image}>
-                    <Image src={img} alt='Terroir'></Image>
+                    {/* <Image src={img} alt='Terroir'></Image> */}
                 </div>
                 <div className={styles.description}>
                     <div className={styles.title}>Ecommerce</div>
@@ -35,7 +32,7 @@ export default function index() {
 
             <div className={styles.card}>
                 <div className={styles.image}>
-                    <Image src={building} alt='Building Constructor'></Image>
+                    {/* <Image src={building} alt='Building Constructor'></Image> */}
                 </div>
                 <div className={styles.description}>
                     <div className={styles.title}>Building Constructor</div>
@@ -52,7 +49,7 @@ export default function index() {
 
             <div className={styles.card}>
                 <div className={styles.image}>
-                    <Image src={ecomm} alt='Ecommerce Dashboard'></Image>
+                    {/* <Image src={ecomm} alt='Ecommerce Dashboard'></Image> */}
                 </div>
                 <div className={styles.description}>
                     <div className={styles.title}>Ecommerce</div>

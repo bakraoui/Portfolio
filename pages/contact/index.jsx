@@ -1,7 +1,5 @@
 import styles from '../../styles/contact.module.css'
 import Link from 'next/link';
-import Image from'next/image' ;
-import contact from '../../public/contact-us.png' 
 import Title from '../../components/Title';
 
 
@@ -12,9 +10,9 @@ export default function index() {
         <Title title='Contact me' />
         <div className={styles.contact_container}>
 
-            <div className={styles.background}>
+            {/* <div className={styles.background}>
                 <Image src={contact} width='500' alt='' height='600' />
-            </div>
+            </div> */}
 
             <div className={styles.media_contacts}>
                

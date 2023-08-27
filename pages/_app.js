@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import Navbar from '../components/Navbar.jsx'
 import { useEffect } from 'react';
+import { Footer } from "../components/Footer";
 
 function MyApp({ Component, pageProps }) {
 
@@ -14,6 +15,7 @@ function MyApp({ Component, pageProps }) {
       <Navbar />
       <div className='main-content' >
         <Component {...pageProps} />
+         <Footer />
       </div>
       
     </>

@@ -1,16 +1,10 @@
 import Link from "next/link";
-import { useState , useEffect} from "react";
 import styles from "../styles/navbar.module.css";
 import items from '../json-data/navbar.json'
 import {useRouter} from 'next/router'
 function Navbar() {
-
-    const [isNavToggled, setisNavToggled] = useState(false);
      
     const router = useRouter()
-
-    
-    
 
     return ( 
         <nav className={styles.nav} id='navbar'>
@@ -22,9 +16,7 @@ function Navbar() {
             </h1>
             
             <div className={styles.menu}>
-                <ul className={isNavToggled ? styles.toggle : ''}>
-                    
-
+                <ul>
                     {
                         items.map(item => {
                             return(

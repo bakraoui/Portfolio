@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../styles/home.module.css'
+import profile from "../public/picture/ayoub-bakraoui.jpg";
 import Image from 'next/image'
-import img from '../public/img.jpg'
 function index() {
 
   return (
@@ -19,9 +19,8 @@ function index() {
               
             </div>
             <p>
-                I&apos;m a software engineer from Morocco, I am 22 years old,
-                currently, I am a student in the Natioanl School of Applied Sciences Agadir (ENSAA) 
-                where I am studying about software engineering.
+                I&apos;m a from Morocco, I am {new Date().getUTCFullYear() - 2000} years old,
+                I am a junior software engineer freshly graduted From the National School of Applied Science Agadir.
             </p>
             <div className={styles.btn}>
                 <a
@@ -36,7 +35,7 @@ function index() {
         </div>
 
         <div className={styles.image_container}>
-              <Image src={img} alt="Personal Image" className={styles.image} />
+              <Image src={profile} alt="Personal Image" className={styles.image} />
         </div>
         
       </div>

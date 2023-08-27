@@ -45,12 +45,12 @@ export default function about() {
 
           <div className={styles.details}>
             <ul>
-              <li> Birthday : <span>21-02-2000</span> </li>
+              <li>Birthday : <span>21-02-2000</span> </li>
               <li>Website :  <span> <a href="http://bakraoui.vercel.app" target='_blank' rel="noreferrer">bakraoui.vercel.app</a> </span> </li>
-              <li>Option :   <span>Software Developer</span>  </li>
+              <li>Title :    <span>Software Developer</span>  </li>
             </ul>
             <ul>
-              <li>Age :  <span>22 yo</span></li>
+              <li>Age :  <span>{new Date().getFullYear() - 2000} years old</span></li>
               <li>Country : <span>Morocco</span></li>
               <li>Option : </li>
             </ul>
@@ -59,7 +59,21 @@ export default function about() {
           <div className={styles.studies_experiences}>
             <div className={styles.card}>
               <h2>Experiences</h2>
+
               <div className={styles.card_body}>
+
+              <div className={styles.card_child}>
+                  <h4>Research Assistant</h4>
+                  <div className={styles.description}>
+                    <p>Oracle | internship | March - August 2023 </p>
+                    <p>developing VSCode extensions for Graal Cloud Native Tools and Assuring High product quality via different testing Tools.</p>
+                    <p><b>Technologies: </b> Typescript, Mocha framework, VSCode API, Docker, Kubernetes, OCI, GCP (Cloud run, GKE) </p>
+                    <p>Developing a tool for extracting licenses, copyrights and dependencies for a given NPM package and all its dependencies in recursive way.</p>
+                    <p><b>Technologies: </b> HTML, CSS, JS, Java, Micronaut, JSoup, Rest API.</p>
+                  </div>
+                </div>
+
+
                 <div className={styles.card_child}>
                   <h4>Software Developer</h4>
                   <div className={styles.description}>

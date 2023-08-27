@@ -1,5 +1,7 @@
 .contact {
     padding-bottom: 50px;
+    width: 100%;
+    min-height: 80vh;
 }
 
 .contact_container {
@@ -8,11 +10,11 @@
 }
 
 .contact_container .background {
-    /* position: absolute;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 80vh; */
+    min-height: 80vh;
 
 }
 

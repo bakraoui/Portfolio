@@ -1,9 +1,9 @@
 import styles from "../../styles/skills.module.css";
 import Title from "../../components/Title";
 import Skill from "../../components/skills/Skill";
-import Badge from "../../components/skills/Badge";
 import { Fragment } from "react";
 import Certificate from "../../components/skills/Certificate";
+import certificates from "../../json-data/certificates.json";
 
 export default function index() {
   return (
@@ -16,8 +16,32 @@ export default function index() {
 
                 <Skill
                     icon='fa-solid fa-code'
-                    title='Web Development'
-                    content='Bootstrap - MERN - JEE - Spring Boot - PHP.'
+                    title='Programming'
+                    content='Java - Javascript - Typescript - C - CPP - Python '
+                />
+
+                <Skill
+                    icon='fa-solid fa-server'
+                    title='Back-End Development'
+                    content='JEE - Spring(Boot - security - data) - .NET - Nodejs - PHP.'
+                />
+
+                <Skill
+                    icon='fa-brands fa-firefox'
+                    title='Front-End Development'
+                    content='React - Angular - Bootstrap5 - HTML5 '
+                />
+
+                <Skill
+                    icon='fa-solid fa-timeline'
+                    title='DevOps'
+                    content='Docker - Kubernetes - Jenkins'
+                />
+                
+                <Skill
+                    icon='fa-solid fa-cloud'
+                    title='Cloud'
+                    content='OCI - AWS - GCP'
                 />
 
                 <Skill
@@ -29,41 +53,25 @@ export default function index() {
                 <Skill
                     icon='fa-solid fa-database'
                     title='Databases'
-                    content='MySQL - Oracle - MongoDB'
+                    content='MySQL - Oracle - SQL server - MongoDB'
                 />
 
                 <Skill
                     icon='fa-solid fa-toolbox'
-                    title='Tools'
-                    content='NPM - Git - Github'
+                    title='Build Tools'
+                    content='Linux CLI - NPM - Yarn - Gradle - Maven'
+                />
+
+                <Skill
+                    icon='fa-solid fa-toolbox'
+                    title='Management Tools'
+                    content='Git - Github - Bitbucket - Jira - Confluence'
                 />
 
             </div>
 
         </section>
 
-        <section className={styles.badges + ' container'}>
-            
-            <Title title='Badges' />
-            <div className={styles.badges_container} >
-            
-                <Badge 
-                    src='/java-badge.jpeg'
-                    from="Hackerrank"
-                    url='https://www.hackerrank.com/ayoubbakraoui'
-                />
-
-                <Badge 
-                    src='/python-badge.jpeg'
-                    from="Hackerrank"
-                    url='https://www.hackerrank.com/ayoubbakraoui'
-                />
-                
-
-            
-            </div>
-
-        </section>
 
         <section className={styles.certificates + ' container'}>
 
@@ -71,14 +79,13 @@ export default function index() {
             <Title title='Certificates' />  
 
             <div className={styles.certificates_container} >
-
-                <Certificate src='/java-basics.png' />
-
-                <Certificate src='/jee-certificate.jpeg' />
-
-                <Certificate src='/springboot-certificate.jpeg' />
+                {
+                    certificates.map(certificate => {
+                        return(<Certificate title={certificate.title} src={certificate.path} />)
+                    })
+                }
                 
-
+                
             </div>
 
         </section> 

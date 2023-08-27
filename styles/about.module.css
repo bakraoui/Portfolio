@@ -1,7 +1,7 @@
 .about {
     position: relative;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .about_content {
@@ -55,17 +55,17 @@
 .details li {
     box-shadow: 0px 2px 3px -3px #333;
     padding: 8px 0px;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
 }
 
 .details li span{
-    font-weight: 500;
+    font-weight: 200;
     color: rgb(113, 110, 110);
 }
 
 .studies_experiences {
-    padding: 10px;
+    margin: 10px 0px;
 }
 
 .card  {
@@ -81,14 +81,14 @@
     background-color: #fff;
     box-shadow: 0px 0px 6px -2px #333; 
     border-radius: 4px;
-    padding: 30px;
+    padding: 20px 40px;
     text-align: justify;
 }
 
 .card_body p,
 .card_body ul{
     font-size: 12px;
-    line-height: 20px;
+    line-height: 25px;
 }
 
 .card_child  {
@@ -106,7 +106,7 @@
     content: '';
     position: absolute;
     top: 5px;
-    left: -6.3%;
+    left: -5.3%;
     width: 10px;
     height: 10px;
     background-color: red;
@@ -120,11 +120,11 @@
 .card_child .description::before   {
     content: '';
     position: absolute;
-    top: -8px;
-    left: -5%;
+    top: -14px;
+    left: -4.3%;
     width: 1px;
     background-color: red;
-    height: 100%;
+    height: 105%;
 }
 
 
@@ -155,10 +155,7 @@
         width: 45%;
     }
     
-    
-
     .studies_experiences {
-        padding: 10px;
         display: flex;
         justify-content: space-between;
     }
@@ -166,8 +163,6 @@
     .card  {
         width: 47%;
     }
-
-
 
     .card_body p,
     .card_body ul{
@@ -181,15 +176,5 @@
     .card_child h4  {
         padding-bottom: 12px;
     }
-
-
-    
+ 
  } 
-  /* Large devices (desktops, 992px and up) */
- @media (min-width: 992px) { }
- 
-  /* X-Large devices (large desktops, 1200px and up) */
- @media (min-width: 1200px) {  }
- 
-  /* XX-Large devices (larger desktops, 1400px and up) */
- @media (min-width: 1400px) { }
