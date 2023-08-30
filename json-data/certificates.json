@@ -1,33 +1,41 @@
 [
     {
+        "id": "1",
         "title": "HTML Essential Training",
         "path": "/certificates/CertificateOfCompletion_HTML Essential Training.pdf"
     },
     {
+        "id": "2",
         "title": "JavaScript Essential Training",
         "path": "/certificates/CertificateOfCompletion_JavaScript Essential Training.pdf"
     },
     {
+        "id": "3",
         "title": "Learning Docker",
         "path": "/certificates/CertificateOfCompletion_Learning Docker.pdf"
     },
     {
+        "id": "4",
         "title": "Cloud 101 Certificate",
         "path": "/certificates/cloud101certificate.pdf"
     },
     {
+        "id": "5",
         "title": "Java Enterprise Edition - OpenClassroom",
         "path": "/certificates/Java Enterprise Edition - OpenClassroom.pdf"
     },
     {
+        "id": "6",
         "title": "Javascript - OpenClassroom",
         "path": "/certificates/Javascript - OpenClassroom.pdf"
     },
     {
+        "id": "7",
         "title": "Linux Command Lines - OpenClassroom",
         "path": "/certificates/Linux Command Lines - OpenClassroom.pdf"
     },
     {
+        "id": "8",
         "title": "Spring Boot Certificate - OpenClassroom",
         "path": "/certificates/Spring Boot Certificate - OpenClassroom.pdf"
     }

@@ -4,7 +4,7 @@ function Certificate({title, src}) {
   return (
     <div className={styles.card}>
         <p className="title">{title}</p>
-        <a href={src} target="_blank">preview</a>  
+        <a href={src} target="_blank" rel="noreferrer">preview</a>  
     </div>
   )
 }

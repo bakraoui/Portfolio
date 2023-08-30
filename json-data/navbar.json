@@ -22,11 +22,5 @@
         "title": "Projects",
         "url" : "/projects",
         "icon": "fa-regular fa-rectangle-list"
-    },
-    {
-        "id" : 5 ,
-        "title": "Contact",
-        "url" : "/contact",
-        "icon": "fa-solid fa-envelope"
     }
 ]

@@ -81,7 +81,7 @@ export default function index() {
             <div className={styles.certificates_container} >
                 {
                     certificates.map(certificate => {
-                        return(<Certificate title={certificate.title} src={certificate.path} />)
+                        return <Certificate key={certificate.id} title={certificate.title} src={certificate.path} />
                     })
                 }
                 

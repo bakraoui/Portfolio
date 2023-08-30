@@ -11,7 +11,7 @@ function Navbar() {
 
             <h1>
                 <Link href='/'>
-                    <a >Portfolio.</a>
+                    Portfolio.
                 </Link>
             </h1>
             
@@ -22,10 +22,8 @@ function Navbar() {
                             return(
                                 <li className={item.url == router.route ? styles.active : ''} key={item.id}>
                                     <Link href={item.url}>
-                                        <a>
                                             <span><i className={item.icon}></i></span>
                                             <span>{item.title}</span>
-                                        </a>
                                     </Link>
                                 </li>
                             )

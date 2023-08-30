@@ -13,6 +13,7 @@
     font-size: 13px;
     cursor: pointer;
     text-align: center;
+    background-color: #ffffffa2;
 }
 
 .card:hover {

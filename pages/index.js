@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from '../styles/home.module.css'
-import profile from "../public/picture/ayoub-bakraoui.jpg";
-import Image from 'next/image'
-function index() {
+import Image from 'next/legacy/image'
+import profile from '../public/picture/bakraoui.jpg';
 
+function index() {
   return (
      
     <div className={styles.home + ' container'}>
@@ -35,7 +35,7 @@ function index() {
         </div>
 
         <div className={styles.image_container}>
-              <Image src={profile} alt="Personal Image" className={styles.image} />
+              <Image src={profile} alt="Personal Image" priority={false} className={styles.image} />
         </div>
         
       </div>

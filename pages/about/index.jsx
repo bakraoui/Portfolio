@@ -20,22 +20,16 @@ export default function about() {
               </p>
               <div className={styles.media_links}>
                
-                <Link  href="https://linkedin.com/in/ayoub-bakraoui" rel="noreferrer">
-                    <a className={styles.link} target='_blank'>
-                      <span><i className="fab fa-linkedin-in"></i></span>
-                    </a>
+                <Link  href="https://linkedin.com/in/ayoub-bakraoui" className={styles.link} rel="noreferrer" target='_blank'>
+                    <span><i className="fab fa-linkedin-in"></i></span>
                 </Link>
 
-                <Link  href="https://github.com/bakraoui" rel="noreferrer">
-                    <a className={styles.link} target='_blank'>
-                      <span><i className="fab fa-github"></i></span>
-                    </a>
+                <Link  href="https://github.com/bakraoui" className={styles.link} rel="noreferrer" target="_blank">
+                    <span><i className="fab fa-github"></i></span>
                 </Link>
 
-                <Link  href="https://www.hackerrank.com/ayoubbakraoui" rel="noreferrer">
-                    <a className={styles.link} target='_blank'>
-                      <span><i className="fab fa-hackerrank"></i></span>
-                    </a>
+                <Link  href="https://www.hackerrank.com/ayoubbakraoui" className={styles.link} rel="noreferrer"  target='_blank'>
+                    <span><i className="fab fa-hackerrank"></i></span>
                 </Link>
 
                 
@@ -45,9 +39,9 @@ export default function about() {
 
           <div className={styles.details}>
             <ul>
-              <li>Birthday : <span>21-02-2000</span> </li>
-              <li>Website :  <span> <a href="http://bakraoui.vercel.app" target='_blank' rel="noreferrer">bakraoui.vercel.app</a> </span> </li>
-              <li>Title :    <span>Software Developer</span>  </li>
+              <li>Title :    <span>Software Engineer</span>  </li>
+              <li>Email:  <span>ayyoub.bakraoui@gmail.com</span> </li>
+              <li>Phone :  <span> +212 651-584863</span> </li>
             </ul>
             <ul>
               <li>Age :  <span>{new Date().getFullYear() - 2000} years old</span></li>

@@ -13,9 +13,6 @@ export default function index() {
         <div className={styles.card_container}>
 
             <div className={styles.card}>
-                <div className={styles.image}>
-                    {/* <Image src={img} alt='Terroir'></Image> */}
-                </div>
                 <div className={styles.description}>
                     <div className={styles.title}>Ecommerce</div>
                     <div className={styles.location}>01-03 -- 01-05-2022 |ENSA AGADIR</div>
@@ -31,9 +28,6 @@ export default function index() {
             </div>
 
             <div className={styles.card}>
-                <div className={styles.image}>
-                    {/* <Image src={building} alt='Building Constructor'></Image> */}
-                </div>
                 <div className={styles.description}>
                     <div className={styles.title}>Building Constructor</div>
                     <div className={styles.location}>01-11-2021 -- 10-01-2022 | ENSA AGADIR</div>
@@ -48,9 +42,6 @@ export default function index() {
 
 
             <div className={styles.card}>
-                <div className={styles.image}>
-                    {/* <Image src={ecomm} alt='Ecommerce Dashboard'></Image> */}
-                </div>
                 <div className={styles.description}>
                     <div className={styles.title}>Ecommerce</div>
                     <div className={styles.location}>01-6 -- 15-6-2020 | ENSA AGADIR</div>
