@@ -15,8 +15,7 @@ export default function about() {
               <h4> Hello!</h4>
               <h3>I&apos;m Bakraoui Ayoub,</h3>
               <p>
-                 I am a software engineer. I am from Morocco, I am 22 years old.
-                currently, I am a student in the Natioanl School of Applied Sciences Agadir (ENSAA).
+                I am 23 years old. Motivated and self-driven software engineer with passion for building high-quality software, and excited to contribute collaboratively to impactful real-world projects.
               </p>
               <div className={styles.media_links}>
                
