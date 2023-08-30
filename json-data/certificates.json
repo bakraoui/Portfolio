@@ -2,41 +2,46 @@
     {
         "id": "1",
         "title": "HTML Essential Training",
-        "path": "/certificates/CertificateOfCompletion_HTML Essential Training.pdf"
+        "path": "/certificates/CertificateOfCompletion_HTML_Essential_Training.pdf"
     },
     {
         "id": "2",
         "title": "JavaScript Essential Training",
-        "path": "/certificates/CertificateOfCompletion_JavaScript Essential Training.pdf"
+        "path": "/certificates/CertificateOfCompletion_JavaScript_Essential_Training.pdf"
     },
     {
         "id": "3",
         "title": "Learning Docker",
-        "path": "/certificates/CertificateOfCompletion_Learning Docker.pdf"
+        "path": "/certificates/CertificateOfCompletion_Learning_Docker.pdf"
     },
     {
         "id": "4",
         "title": "Cloud 101 Certificate",
-        "path": "/certificates/cloud101certificate.pdf"
+        "path": "/certificates/cloud101Certificate.pdf"
     },
     {
         "id": "5",
-        "title": "Java Enterprise Edition - OpenClassroom",
-        "path": "/certificates/Java Enterprise Edition - OpenClassroom.pdf"
+        "title": "Linux Command Lines - Linkedin",
+        "path":"/certificates/CertificateOfCompletion_Learning_Linux_Command_Line.pdf"
     },
     {
         "id": "6",
-        "title": "Javascript - OpenClassroom",
-        "path": "/certificates/Javascript - OpenClassroom.pdf"
+        "title": "Java Enterprise Edition - OpenClassroom",
+        "path": "/certificates/Java_Enterprise_Edition_OpenClassroom.pdf"
     },
     {
         "id": "7",
-        "title": "Linux Command Lines - OpenClassroom",
-        "path": "/certificates/Linux Command Lines - OpenClassroom.pdf"
+        "title": "Javascript - OpenClassroom",
+        "path": "/certificates/Javascript_OpenClassroom.pdf"
     },
     {
         "id": "8",
+        "title": "Linux Command Lines - OpenClassroom",
+        "path": "/certificates/Linux_Command_Lines_OpenClassroom.pdf"
+    },
+    {
+        "id": "9",
         "title": "Spring Boot Certificate - OpenClassroom",
-        "path": "/certificates/Spring Boot Certificate - OpenClassroom.pdf"
+        "path": "/certificates/Spring_Boot_Certificate_OpenClassroom.pdf"
     }
 ]
